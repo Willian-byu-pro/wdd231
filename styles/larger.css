@@ -1,0 +1,79 @@
+/*No large vamos usar o @media view*/
+
+
+
+/*Ele diz: “as regras dentro daqui só vão valer se a tela tiver pelo menos 38rem de largura”.*/
+@media only screen and (min-width: 38rem){
+
+    /*como metodo de boas praticas colocamos uma largura maxima dpara que a pagina não continue crescendo infinitamente*/
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto; /*margin: 0 auto; centraliza o conteúdo na tela.*/
+    }
+
+    header {
+        grid-template-columns: 24px auto; /*Isso define um grid dentro do header: a primeira coluna com 24px e a segunda ocupando o restante (auto).*/
+    }
+
+ .hamburger {
+    display: none;
+    /*Em telas pequenas → mostra o botão hambúrguer (menu escondido atrás dele).
+      Em telas grandes → esconde o hambúrguer (display: none) e mostra o menu direto.*/
+ }
+
+ .navegation {/*Agora sobrepoem a script do aruivo base fazendo com que ao acionar o @media a barra de navegação estara visivel independente do click "show" ser ativo mostrando assim o menu fixo na pagina grande*/
+    display: block;
+   }
+
+
+
+ /**************************************** HEADER MENU DESIGNE Large***************************************************************/
+
+
+ .navegation ul {/*epara os links em colunas por padrão flex*/
+    display: flex;
+    column-gap: 8px; /*Da um gap/espaço entre as colunas (exp |gap| exp |gap| exp)*/
+    list-style-type: none;/*Esse comando diz pro navegador:
+                            “Não mostre os pontinhos (•) na frente dos itens da lista.*/
+    
+
+    /*justify-content: center; ---->*/  /*"Center"Faz com que os "a" fiquem centralizidados(justificado ao centro) mas...*/
+
+    justify-content: space-around;/*faz com que ele se centralize ocupando uniformemente o espaço ao redor*/
+ }
+
+ nav {
+    background-color: #ede0d4;
+    padding: 10px 10px 0% 10px; /*padding é o espaço interno de um elemento, 
+                     ou seja, o "acolchoamento" entre o conteúdo 
+                     e a borda do elemento superior e inferior.*/
+    
+    
+ }
+
+ .navegation a{
+    
+    text-align: center;
+    padding: 22px; /*padding é o espaço interno de um elemento, 
+                     ou seja, o "acolchoamento" entre o conteúdo 
+                     e a borda do elemento superior e inferior.*/
+
+    text-decoration: none; /*Esse comando diz pro navegador:
+                             Retire as linhas sublinhadas*/
+    color: #9c6644;
+  }
+
+ .navegation a:hover{/* estilo quando o usuário passa o mouse por cima do link*/
+    color: #7f5539;
+    font-size: larger;
+
+
+  }
+
+
+ 
+
+
+
+}
+

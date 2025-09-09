@@ -1,0 +1,138 @@
+/*Base Color*/
+
+/*Background = ede0d4*/
+/*TitlesBackground = 9c6644*/
+/*LettersTittles = 7f5539*/
+/*text = #b08968*/
+
+
+/***************************************************************************************************************/
+
+/*font size*/
+
+/*font-family: "roma Sans", sans-serif
+                box-sizing: border-box*/
+
+/***************************************************************************************************************/
+
+
+*{
+    font-family: "Roma Sans", sans-serif;
+    box-sizing: border-box /*faz com que o tamanho total do elemento já inclua borda e padding, mantendo a largura/altura que você definiu.*/
+}
+
+/**************************************** HEADER ***************************************************************/
+
+header{
+    display: grid; /*formato das div um abaixo do outro por padrão do grid*/
+    grid-template-columns: 24px auto 44px;/*Faz o grid um ao lado do outro (Formato em colunas)*/
+    padding: 5px 0 5px 10px; /*Seguindo o sentido do relogio = padding: [top] [right] [bottom] [left];*/
+    align-items: end; /*Todos os itens do header sera grudado na borda inferior do container*/
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px; /*Da um gap/espaço entre as colunas (exp |gap| exp |gap| exp)*/
+    
+}
+
+header img{
+    display: block; /*img ocupara toda a largura disponivel alem de fazer quebra de linha*/
+    width: 100%; /*Fax com que ele fique enquadradro mas pode ser cortado para se enquadrar*/
+    height: auto;  /*Usa se a autura no auto para evitar a distorção da imagem ajudando assim a se enquadrar no seu box*/
+    
+}
+
+header span{
+    font-size: 1.2rem;
+    color: #9c6644;
+}
+
+/**************************************** HAMBURGER NAVAGATION ***************************************************************/
+
+.hamburger {
+    background: none; /*Retira o fundo do botão*/
+    border: none; /*Retira a borda do botão*/
+    color:  #9c6644;
+    cursor: pointer;
+
+}
+
+
+/*Com pseudonimo ::after podemos sobrepor imagens no boton (conhecido como conteudo fantasma)*/
+
+.hamburger::before { /*o pseudonimo after/before coloca algo dentro do botão sem precisar criar uma linha de codigo extra*/
+    content: "\2630"; /*atalho para o simbolo de hamburgue com 3 riscos no horizontal*/
+    font-size: 2rem;
+
+}
+
+.hamburger.show::before { /*o pseudonimo after/before coloca algo dentro do botão sem precisar criar uma linha de codigo extra*/
+    content: "\00D7"; /*atalho para o simbolo de X quando o script de java for ativo e entrar no menur hamburhuer*/
+    font-size: 2rem;
+}
+
+
+/*******************OBS*****************/
+
+/*Esta parte do codigo so é funcional com o codigo JavaScript e o CSS no arquivo large*/
+
+.navegation {/*por padrão a baarra de navegação não vai estar visivel (display:none)-  isso para que o botão a chame ao ser clicado*/
+  display: none;
+   
+}
+
+
+.navegation.show {/*isso faz com que a barra de navegação se torne visivel com o click ativando o "show"(display:block)*/
+  display: block;
+}
+
+
+
+
+/**************************************** HEADER MENU DESIGNE small***************************************************************/
+
+.navegation ul {/*epara os links em colunas por padrão flex*/
+    
+    list-style-type: none;/*Esse comando diz pro navegador:
+                            “Não mostre os pontinhos (•) na frente dos itens da lista.*/
+
+    /*justify-content: center; ---->*/  /*"Center"Faz com que os "a" fiquem centralizidados(justificado ao centro) mas...*/
+    margin: 0%;
+    padding: 0%;
+   
+
+}
+
+
+
+
+nav {
+    background-color: #ede0d4;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 1px 10px 4px; /*Seguindo o sentido do relogio = padding: [top] [right] [bottom] [left];*/
+}
+
+.navegation a{
+    
+    display: block; /*ocupara toda a largura disponivel como um block*/
+    padding: .5rem; /*padding é o espaço interno de um elemento, 
+                     ou seja, o "acolchoamento" entre o conteúdo 
+                     e a borda do elemento superior e inferior.*/
+
+    text-decoration: none; /*Esse comando diz pro navegador:
+                             Retire as linhas sublinhadas*/
+    color: #9c6644;
+}
+
+.navegation a:hover{/* estilo quando o usuário passa o mouse por cima do link*/
+    color: #7f5539;
+    font-size: large;
+
+
+}
+
+.navegation li.current a {/*Esse comando vasculha a pagina a procura do Li com classe chamada ".current" aplicando as ecessoes de cor de fundo e de texto*/
+                          /*OBS.: Para que isso funcione cada pagina precisa esta com o link de sua pagina predeterminada com a classi .current*/
+    background-color: #9c6644;
+    color: #ede0d4;
+}
+

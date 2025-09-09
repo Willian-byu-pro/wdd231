@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="512" 
+    height="512" 
+    viewBox="0 0 512 512">
+
+  <title>Will Finance Mark</title>
+  <desc>Minimal single path upward-trend logo with arrow, watermark style</desc>
+
+  <!-- ÚNICO elemento (pode editar livremente no Inkscape, Illustrator ou até VSCode) -->
+  <path 
+    d="M 64 384
+       L 168 280
+       L 240 352
+       L 344 248
+       L 344 200
+       L 448 200
+       m -28 -16
+       l 28 16
+       l -28 16"
+    fill="none"
+    stroke="#9c6644"
+    stroke-width="24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="none"/>
+</svg>
