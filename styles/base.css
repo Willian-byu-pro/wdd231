@@ -136,3 +136,30 @@ nav {
     color: #ede0d4;
 }
 
+/**************************************** FOOTER DESIGNE ***************************************************************/
+
+footer{
+    background-color: #ede0d4;
+    color: #9c6644;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.logos a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.logos img{
+    width: 22px;
+    height: 22px;
+}
