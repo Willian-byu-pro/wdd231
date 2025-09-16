@@ -1,12 +1,3 @@
-/*No large vamos usar o @media view*/
-
-:root {
-    --primary-head:#e5e5e5;/*Background = ede0d4*/
-    --secondary-color:#fca311;/*TitlesBackground = 9c6644*/
-    --LettersTitles-color: #14213d; /*LettersTittles = 7f5539*/
-    --text-color-principal:#000000;/*text = #b08968*/
-}
-
 /*Ele diz: “as regras dentro daqui só vão valer se a tela tiver pelo menos 38rem de largura”.*/
 @media only screen and (min-width: 38rem){
 
@@ -28,11 +19,11 @@
 
  .navegation {/*Agora sobrepoem a script do aruivo base fazendo com que ao acionar o @media a barra de navegação estara visivel independente do click "show" ser ativo mostrando assim o menu fixo na pagina grande*/
     display: block;
+    grid-column: 1 / -1; /* ocupa da primeira até a última coluna */
+    
    }
 
-
-
- /**************************************** HEADER MENU DESIGNE Large***************************************************************/
+    /**************************************** HEADER MENU DESIGNE Large***************************************************************/
 
 
  .navegation ul {/*epara os links em colunas por padrão flex*/
@@ -47,56 +38,4 @@
     justify-content: space-around;/*faz com que ele se centralize ocupando uniformemente o espaço ao redor*/
  }
 
- nav {
-    background-color: var(--LettersTitles-color);
-    padding: 10px 10px 0% 10px; /*padding é o espaço interno de um elemento, 
-                     ou seja, o "acolchoamento" entre o conteúdo 
-                     e a borda do elemento superior e inferior.*/
-    
-    
- }
-
- .navegation a{
-    
-    text-align: center;
-    padding: 22px; /*padding é o espaço interno de um elemento, 
-                     ou seja, o "acolchoamento" entre o conteúdo 
-                     e a borda do elemento superior e inferior.*/
-
-    text-decoration: none; /*Esse comando diz pro navegador:
-                             Retire as linhas sublinhadas*/
-    color: var(--primary-head);
-  }
-
- .navegation a:hover{/* estilo quando o usuário passa o mouse por cima do link*/
-    color: var(--primary-head);
-    font-size: larger;
-
-
-  }
-
-  /*********************main menu****************************************/
-
-  main h1 {
-  grid-column: 1 / -1; /* ocupa da primeira até a última coluna */
-  color:var(--LettersTitles-color)
 }
-
-main {
-    
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-
-}
-
-#couses{
-  grid-template-columns: 2fr 2fr 2fr;
-}
-
-
- 
-
-
-
-}
-

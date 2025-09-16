@@ -1,0 +1,308 @@
+Website Project Plan
+
+Site Name
+Nova Lima Investment Chamber of Commerce
+
+Site Purpose
+This website will serve as a central hub for businesses in the Nova Lima region, especially those in the investment sector. It will provide information about local events, offer networking opportunities, create business directories, and encourage local commerce. The goal is to promote local economic growth, support financial and investment firms, and strengthen the sense of community among professionals and entrepreneurs.
+
+Target Market
+Business owners, investors, and clients in Nova Lima and surrounding regions.
+
+
+
+
+
+Website Objectives
+
+Improve member engagement by providing valuable resources and networking opportunities.
+
+Attract new investment firms and encourage economic development in the region.
+
+Enhance the visibility and reputation of the chamber as a trusted authority in investment and financial matters.
+
+
+
+
+User Personas
+
+Small Business Investor: Maria, 35, owns a boutique financial consulting firm. She seeks networking opportunities, business resources, and visibility to grow her client base.
+
+Corporate Executive: Diego, 47, is an executive at a multinational bank looking for partnership opportunities, economic development resources, and connections with other leaders in the investment sector.
+
+New Resident Investor: Francisco recently moved to Nova Lima and wants to learn about available investment opportunities, financial service providers, and upcoming economic events.
+
+
+
+
+
+User Scenarios
+
+A local entrepreneur is interested in joining the chamber to network with other investors. They visit the website to find information about membership benefits, fees, and how to register.
+
+A community member is looking for upcoming events, workshops, or conferences promoted by the chamber. They use the site’s events calendar to register.
+
+An international investor is exploring the possibility of entering the Nova Lima market. They visit the chamber’s site to learn about existing firms, workforce availability, and the overall investment climate.
+
+
+
+
+
+
+SEO Plan
+
+Use relevant keywords such as investment in Nova Lima, financial growth, local chamber of commerce, investment networking.
+
+Verify the site with Google Business Profile.
+
+Obtain backlinks from all member businesses’ websites to strengthen domain authority.
+
+Integrate Google Analytics into every page to track engagement and visitor flow.
+
+
+
+
+
+Project Summary
+
+Primary Color: #1A3C8C (deep blue – trust & professionalism)
+
+Secondary Color: #E6B800 (gold – prosperity & wealth)
+
+Background Color: #F5F7FA (light neutral – clean and modern)
+
+Text Color: #333333 (dark gray – readability)
+
+Font Family: “Montserrat” for titles, “Open Sans” for body text
+
+Site Map
+
+
+
+
+
+
+Home
+
+About the Chamber
+
+Membership (Levels, Benefits, Join Us)
+
+Directory of Investment Firms
+
+Events & Networking
+
+Resources & Blog
+
+Contact
+
+
+
+Wireframes
+
+
+Desktop Wireframe:
+
+Top navigation bar with logo and menu links
+
+Hero section with banner and call-to-action (Join / Explore Directory)
+
+Highlights: Events, Member Spotlight, Resources
+
+Footer with contact info and social links
+
+
+
+
+
+
+Mobile Wireframe:
+
+Hamburger menu with same structure as desktop
+
+Compact hero image with CTA
+
+Vertical stacked layout for Events, Directory, and Resources
+
+
+
+
+
+
+
+
+
+
+
+
+📑 Plano de Projeto – Câmara de Comércio de Nova Lima (Investimentos)
+Nome do site
+
+Câmara de Comércio e Investimentos de Nova Lima
+
+Finalidade do site
+
+
+Este site será um hub de informações e conexões para empresas e investidores em Nova Lima, com foco no setor financeiro.
+Ele irá:
+
+divulgar eventos e workshops de investimentos,
+
+criar diretórios de empresas financeiras,
+
+fornecer oportunidades de networking entre investidores e empreendedores,
+
+incentivar a circulação de capital e o fortalecimento do setor na região.
+
+
+
+🎯 Objetivo principal: apoiar o crescimento do ecossistema de investimentos de Nova Lima, aproximando investidores, consultorias financeiras, corretoras, startups e clientes locais.
+
+Mercado-alvo
+
+Investidores locais e nacionais interessados em oportunidades na região.
+
+Corretoras, gestoras e consultorias que atuam no setor financeiro.
+
+Empresas de tecnologia e startups ligadas a investimentos digitais (fintechs).
+
+Moradores de Nova Lima interessados em aplicar recursos e participar de eventos econômicos.
+
+
+
+
+Objetivos do site
+
+Facilitar o acesso a informações de investimentos e oportunidades locais.
+
+Criar um diretório de empresas financeiras confiáveis em Nova Lima.
+
+Promover eventos de networking, palestras e workshops de investimentos.
+
+Reforçar a reputação de Nova Lima como polo estratégico de investimentos em Minas Gerais.
+
+
+
+
+
+Personas do usuário
+
+👩‍💼 Ana – Consultora Financeira (32 anos)
+Trabalha com planejamento de investimentos e quer expor sua empresa no diretório da câmara para atrair clientes.
+
+👨‍💼 Ricardo – Investidor Corporativo (48 anos)
+Diretor de uma gestora de fundos. Busca oportunidades de networking, parcerias estratégicas e informações econômicas regionais.
+
+👨 João – Jovem Profissional (26 anos)
+Recém-formado em Administração e morador de Nova Lima. Está começando a investir e procura workshops, palestras e empresas confiáveis para aprender.
+
+
+
+Cenários
+
+Um investidor acessa o site para conhecer as empresas do diretório financeiro (corretoras, consultorias, fintechs).
+
+Uma empresa local quer se associar à câmara para ganhar credibilidade e aumentar sua rede de contatos.
+
+Um morador procura eventos de educação financeira para aprender a investir com segurança.
+
+Uma fintech quer divulgar sua solução de investimentos e atrair clientes em Nova Lima.
+
+
+
+
+Plano de SEO
+
+Palavras-chave: investimentos em Nova Lima, consultoria financeira MG, corretora de valores Nova Lima, câmbio e fundos, Câmara de Comércio e Investimentos.
+
+Criar perfil no Google Business da câmara.
+
+Garantir backlinks de corretoras e gestoras associadas.
+
+Integrar Google Analytics para acompanhar acessos e comportamento do usuário.
+
+
+
+
+
+Resumo do projeto
+
+🎨 Paleta de Cores (financeira, sofisticada, confiável):
+
+Cor primária: #0B3D91 (azul escuro – confiança e seriedade)
+
+Cor secundária: #FFD700 (dourado – prosperidade e riqueza)
+
+Cor de fundo: #F4F6F9 (cinza claro – profissionalismo e clareza)
+
+Cor do texto: #1C1C1C (grafite – contraste e boa leitura)
+
+🔤 Tipografia:
+
+Títulos: Merriweather (serifada, transmite tradição e confiança).
+
+Texto: Roboto (sans-serif, moderno e legível).
+
+
+
+
+Mapa do site
+Home
+│
+├── Sobre a Câmara
+│   ├── Missão e Valores
+│   ├── Diretoria
+│   └── Parceiros Estratégicos
+│
+├── Diretório Financeiro
+│   ├── Corretoras
+│   ├── Consultorias
+│   ├── Gestoras
+│   └── Fintechs
+│
+├── Eventos e Workshops
+│   ├── Próximos Eventos
+│   ├── Educação Financeira
+│   └── Inscrição Online
+│
+├── Associação
+│   ├── Benefícios
+│   ├── Planos e Taxas
+│   └── Formulário de Inscrição
+│
+├── Notícias & Insights
+│   ├── Mercado Local
+│   └── Tendências Financeiras
+│
+└── Contato
+    ├── Formulário
+    └── Endereço / Localização
+
+Wireframes
+💻 Desktop
+
+Header fixo com logo e menu.
+
+Banner inicial: “O Hub de Investimentos de Nova Lima”.
+
+Destaques em cards: diretório de empresas, próximos eventos, associe-se.
+
+Rodapé: contatos, mapa, links rápidos e redes sociais.
+
+📱 Mobile
+
+Menu hambúrguer.
+
+Cards empilhados para fácil navegação.
+
+Botões de ação: “Ver diretório financeiro”, “Inscrever-se em evento”, “Associe-se”.
+
+
+
+
+
+
+
+
+
+

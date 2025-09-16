@@ -5,6 +5,13 @@
 /*LettersTittles = 7f5539*/
 /*text = #b08968*/
 
+:root {
+    --primary-head:#e5e5e5;/*Background = ede0d4*/
+    --secondary-color:#fca311;/*TitlesBackground = 9c6644*/
+    --LettersTitles-color: #14213d; /*LettersTittles = 7f5539*/
+    --text-color-principal:#000000;/*text = #b08968*/
+}
+
 
 /***************************************************************************************************************/
 
@@ -19,6 +26,7 @@
 *{
     font-family: "Roma Sans", sans-serif;
     box-sizing: border-box /*faz com que o tamanho total do elemento já inclua borda e padding, mantendo a largura/altura que você definiu.*/
+    
 }
 
 /**************************************** HEADER ***************************************************************/
@@ -42,7 +50,7 @@ header img{
 
 header span{
     font-size: 1.2rem;
-    color: #9c6644;
+    color: var(--LettersTitles-color);
 }
 
 /**************************************** HAMBURGER NAVAGATION ***************************************************************/
@@ -50,7 +58,7 @@ header span{
 .hamburger {
     background: none; /*Retira o fundo do botão*/
     border: none; /*Retira a borda do botão*/
-    color:  #9c6644;
+    color:  var(--LettersTitles-color);
     cursor: pointer;
 
 }
@@ -76,6 +84,7 @@ header span{
 
 .navegation {/*por padrão a baarra de navegação não vai estar visivel (display:none)-  isso para que o botão a chame ao ser clicado*/
   display: none;
+  
    
 }
 
@@ -105,7 +114,7 @@ header span{
 
 
 nav {
-    background-color: #ede0d4;
+    background-color: var(--LettersTitles-color);
     display: flex;
     flex-direction: row;
     padding: 10px 1px 10px 4px; /*Seguindo o sentido do relogio = padding: [top] [right] [bottom] [left];*/
@@ -113,18 +122,18 @@ nav {
 
 .navegation a{
     
-    display: block; /*ocupara toda a largura disponivel como um block*/
+    display:block; /*ocupara toda a largura disponivel como um block*/
     padding: .5rem; /*padding é o espaço interno de um elemento, 
                      ou seja, o "acolchoamento" entre o conteúdo 
                      e a borda do elemento superior e inferior.*/
 
     text-decoration: none; /*Esse comando diz pro navegador:
                              Retire as linhas sublinhadas*/
-    color: #9c6644;
+    color: var(--primary-head);
 }
 
 .navegation a:hover{/* estilo quando o usuário passa o mouse por cima do link*/
-    color: #7f5539;
+    color: var(--primary-head);
     font-size: large;
 
 
@@ -132,15 +141,15 @@ nav {
 
 .navegation li.current a {/*Esse comando vasculha a pagina a procura do Li com classe chamada ".current" aplicando as ecessoes de cor de fundo e de texto*/
                           /*OBS.: Para que isso funcione cada pagina precisa esta com o link de sua pagina predeterminada com a classi .current*/
-    background-color: #9c6644;
-    color: #ede0d4;
+    background-color: var(--secondary-color);
+    color: var(--primary-head);
 }
 
 /**************************************** FOOTER DESIGNE ***************************************************************/
 
 footer{
-    background-color: #ede0d4;
-    color: #9c6644;
+    background-color: var(--LettersTitles-color);
+    color: var(--primary-head);
     padding: 1rem 10px;
     text-align: center;
 }
@@ -163,3 +172,144 @@ footer{
     width: 22px;
     height: 22px;
 }
+
+
+
+/******************************************************main Menu*********************************************************/
+
+
+
+main #couses {
+  grid-column: 1 / -1; /* ocupa da primeira até a última coluna */
+}
+
+main h1 {
+  grid-column: 1 / -1; /* ocupa da primeira até a última coluna */
+  color:var(--text-color-principal);
+  margin-left: 20px;
+  
+}
+
+.inicial{
+    position: relative; /* garante que o h2 fique dentro da div */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    /*-----3d script------*/
+    padding: 0rem;
+    
+    margin: 2rem 0.5rem;
+    box-shadow: 0 4px 6px rgba(239, 185, 185, 0.1);
+    align-items: center;
+    
+}
+
+
+
+#couses{
+    display: grid;
+    position: relative; /* garante que o h2 fique dentro da div */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    /*-----3d script------*/
+    padding: 0rem;
+    
+    
+    margin: 2rem 0.5rem;
+    box-shadow: 0 4px 6px rgba(239, 185, 185, 0.1);
+    align-items: center;
+    
+}
+
+#couses h2 {
+  grid-column: 1 / -1; /* ocupa da primeira até a última coluna */
+  
+}
+
+.course{
+    display: grid;
+    color: var(--LettersTitles-color);
+    margin: auto;
+}
+
+.inicial h2 {
+    background-color: var(--secondary-color);
+    color: var(--primary-head);
+    margin: 0px;
+    padding: 0.5rem 1rem;
+    top: 0;
+    
+}
+
+#couses h2 {
+    background-color: var(--LettersTitles-color);
+    color: var(--primary-head);
+    margin: 0px;
+    padding: 0.5rem 1rem;
+    top: 0;
+    
+}
+
+.inicial p {
+    
+    color: var(--text-color-principal);
+    margin: 0px;
+    padding: 0.5rem 1rem;
+    top: 0;
+    
+}
+
+#myfoto {
+
+    /*Esses dois comandos só fazem sentido se a imagem tiver uma 
+    posição definida como position: relative, absolute, fixed ou sticky.*/
+    margin-top: 1px;
+    margin-right: 25%;
+    padding: 5px;
+
+    
+     position: relative; /* garante que o h2 fique dentro da div */
+
+    /*--------------------- // -------------------*/
+
+    width: 150px;/*ajusta o tamho necessario*/
+    border-radius: 8px;/*arredonda as quinas*/
+
+    /*Como position: absolute tira a imagem do fluxo normal da página, a <section> não 
+    reconhece a altura dela. Por isso, ela não “cresce” pra envolver a imagem.*/
+    
+}
+
+
+/******************************************************* navigation *************************************************/
+
+
+.navigation ul{
+     list-style-type: none;/*Esse comando diz pro navegador:
+                            “Não mostre os pontinhos (•) na frente dos itens da lista.*/
+}
+
+
+.navigation{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px 1px 10px 4px; /*Seguindo o sentido do relogio = padding: [top] [right] [bottom] [left];*/
+    list-style-type: none;/*Esse comando diz pro navegador:
+                            “Não mostre os pontinhos (•) na frente dos itens da lista.*/
+}
+
+.navigation a {
+    background-color: var(--LettersTitles-color);
+    display:block; /*ocupara toda a largura disponivel como um block*/
+    padding: .5rem; /*padding é o espaço interno de um elemento, 
+                     ou seja, o "acolchoamento" entre o conteúdo 
+                     e a borda do elemento superior e inferior.*/
+
+    text-decoration: none; /*Esse comando diz pro navegador:
+                             Retire as linhas sublinhadas*/
+    color: var(--primary-head);
+
+}
+
+
+

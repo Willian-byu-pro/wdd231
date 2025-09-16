@@ -1,3 +1,7 @@
+<!--Precisa mudar o arquivo para a area pprincipal/raiz main-->
+
+
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -19,15 +23,49 @@
         <img src="images/logo.svg" alt="logo site" width="512" height="512">
         <span>Willian Site Tittle</span>
         <button id="ham-btn" class="hamburger"></button>
+        
+
     </header>
     <nav id="nav-bar" class="navegation">
         <ul>
-            <li class="current"><a href="#">News & Events</a></li>
-            <li><a href="#">Dedicated Temples</a></li>
-            <li><a href="#">Announced Temples</a></li>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+            
         </ul>
     </nav>
-    <main></main>
+    <main>
+        <h1>Home</h1>
+
+        <div id="selfme" class="inicial">
+            <h2 class="h2divs">About Me</h2>
+            <p>Willian Ramos Silva is a 23-year-old professional who combines discipline, responsibility, and a natural sense of leadership. With solid experience in the administrative and accounting sector, he has worked directly with invoice control, strategic report organization, and support for major engineering projects—always prioritizing accuracy and reliability of information.
+
+Beyond his professional career, he carries valuable experience as a missionary, where he led and guided over 150 young people from different cultures and countries. This role helped him develop strong communication, people management, and community-building skills. It also reinforced his traditional values of family and purpose, while fueling his drive for continuous growth.
+
+Currently, he is pursuing a degree in Software Development, a field that reflects his determination to broaden his horizons and adapt to the evolving market. His goal is to combine his background in administration and accounting with technology, creating practical and innovative solutions.
+
+Outside of work and studies, Will enjoys traveling, hiking, and experiencing different cultures. He is also passionate about investments, always focused on the future, and steadily building the foundation to achieve his greatest dream: starting his own family.</p>
+        </div>
+
+        <div id="stdfoto" class="inicial">
+            <h2 class="h2divs">Student Photo</h2>
+            <img id="myfoto" src="images/willian.jpg" alt="my foto">
+        </div>
+        
+        <div id="couses"  class="res grid">
+            <h2 class="h2divs">Web Certificate Courses</h2>
+            <nav>
+                <ul class="navigation">
+                  <li><a href="#" data-filter="all">ALL</a></li>
+                  <li><a href="#" data-filter="cse">CSE</a></li>
+                  <li><a href="#" data-filter="wdd">WDD</a></li>
+                </ul>          
+            </nav>
+        </div>
+
+
+    </main>
     <footer>
         <p class="copy">&copy;2025 | Willian Ramos | Brazil 
             <span id="currentyear"></span>
@@ -38,8 +76,9 @@
              <a href=""><img src="images/linkedin.svg" alt="Logo linkedin" width="16" height="16"></a>
              <a href=""><img src="images/guithub.svg" alt="Logo Guithub" width="16" height="16"></a>
         </div>
-        <script src="scripts/navegation.js"> </script>
+        
         <p id="LastModified"></p>
+        <script src="scripts/navegation.js"> </script>
     </footer>
     
 </body>
