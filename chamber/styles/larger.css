@@ -2,7 +2,7 @@
 @media only screen and (min-width: 38rem){
 
     /*como metodo de boas praticas colocamos uma largura maxima dpara que a pagina não continue crescendo infinitamente*/
-    header, main, nav, footer {
+    main, header, footer {
         max-width: 900px;
         margin: 0 auto; /*margin: 0 auto; centraliza o conteúdo na tela.*/
     }
@@ -11,11 +11,18 @@
         grid-template-columns: 24px auto; /*Isso define um grid dentro do header: a primeira coluna com 24px e a segunda ocupando o restante (auto).*/
     }
 
+    header img{
+    display: block; /*img ocupara toda a largura disponivel alem de fazer quebra de linha*/
+    width: 500%; /*Fax com que ele fique enquadradro mas pode ser cortado para se enquadrar*/
+    height: auto;  /*Usa se a autura no auto para evitar a distorção da imagem ajudando assim a se enquadrar no seu box*/
+    
+   }
+
  .hamburger {
     display: none;
     /*Em telas pequenas → mostra o botão hambúrguer (menu escondido atrás dele).
       Em telas grandes → esconde o hambúrguer (display: none) e mostra o menu direto.*/
- }
+   }
 
  .navegation {/*Agora sobrepoem a script do aruivo base fazendo com que ao acionar o @media a barra de navegação estara visivel independente do click "show" ser ativo mostrando assim o menu fixo na pagina grande*/
     display: block;
@@ -28,14 +35,19 @@
 
  .navegation ul {/*epara os links em colunas por padrão flex*/
     display: flex;
-    column-gap: 8px; /*Da um gap/espaço entre as colunas (exp |gap| exp |gap| exp)*/
+    column-gap: 3rem; /*Da um gap/espaço entre as colunas (exp |gap| exp |gap| exp)*/
     list-style-type: none;/*Esse comando diz pro navegador:
                             “Não mostre os pontinhos (•) na frente dos itens da lista.*/
     
 
-    /*justify-content: center; ---->*/  /*"Center"Faz com que os "a" fiquem centralizidados(justificado ao centro) mas...*/
+    align-items: center;
+    margin: 1px 1px 1px 33%;
+   }
 
-    justify-content: space-around;/*faz com que ele se centralize ocupando uniformemente o espaço ao redor*/
- }
+   /*************************************************Footer*************************************************/
+
+   footer {
+       border-radius: 10px; /*arredonda as quinas*/
+   }
 
 }

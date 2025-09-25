@@ -1,9 +1,9 @@
 
 :root {
-    --primary-head:#e5e5e5;/*Background = ede0d4*/
-    --secondary-color:#fca311;/*TitlesBackground = 9c6644*/
-    --LettersTitles-color: #14213d; /*LettersTittles = 7f5539*/
-    --text-color-principal:#000000;/*text = #b08968*/
+    --primary-head:#6c757d;/*Background = ede0d4*/
+    --secondary-color:#adb5bd;/*TitlesBackground = 9c6644*/
+    --LettersTitles-color: #212529; /*LettersTittles = 7f5539*/
+    --text-color-principal:#;/*text = #b08968*/
 }
 
 
@@ -16,8 +16,12 @@ header{
     grid-template-columns: 24px auto 44px;/*Faz o grid um ao lado do outro (Formato em colunas)*/
     padding: 5px 0 5px 10px; /*Seguindo o sentido do relogio = padding: [top] [right] [bottom] [left];*/
     align-items: end; /*Todos os itens do header sera grudado na borda inferior do container*/
-    border-bottom: solid 1px #ddd;
+    border-bottom: solid 2px #ddd; 
     column-gap: 8px; /*Da um gap/espaço entre as colunas (exp |gap| exp |gap| exp)*/
+    
+    
+    
+    
     
 }
 
@@ -31,6 +35,7 @@ header img{
 header span{
     font-size: 1.2rem;
     color: var(--LettersTitles-color);
+    
 }
 
 
@@ -41,8 +46,18 @@ header span{
 
 .navegation {/*por padrão a baarra de navegação não vai estar visivel (display:none)-  isso para que o botão a chame ao ser clicado*/
   display: none;
+  background-color: var(--secondary-color);
+  
+  
   
    
+}
+
+.navegation ul{
+  list-style-type: none;/*Esse comando diz pro navegador:
+                            “Não mostre os pontinhos (•) na frente dos itens da lista.*/
+    
+  
 }
 
 
@@ -53,7 +68,19 @@ header span{
 .navegation a{
     text-decoration: none; /*Esse comando diz pro navegador:
                              Retire as linhas sublinhadas*/
-    color: var(--primary-head);
+    color: var(--LettersTitles-color);
+}
+
+.navegation a:hover{/* estilo quando o usuário passa o mouse por cima do link*/
+    color: var(--text-color-principal);
+    font-size: large;
+
+
+}
+
+.navegation li.current a {/*Esse comando vasculha a pagina a procura do Li com classe chamada ".current" aplicando as ecessoes de cor de fundo e de texto*/
+                          /*OBS.: Para que isso funcione cada pagina precisa esta com o link de sua pagina predeterminada com a classi .current*/
+    font-size: x-large;
 }
 
 
@@ -62,7 +89,12 @@ nav {
     display: flex;
     flex-direction: row;
     padding: 10px 1px 10px 4px; /*Seguindo o sentido do relogio = padding: [top] [right] [bottom] [left];*/
+    border-radius: 10px; /*arredonda as quinas*/
     
+}
+
+#cabeçalho{
+     margin: auto;
 }
 
 
@@ -121,4 +153,76 @@ main h1 {
     box-shadow: 0 4px 6px rgba(239, 185, 185, 0.1);
     align-items: center;
     
+}
+
+/*************************************************Main menu grid********************************************************/
+
+#company{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 1rem;
+}
+
+.member{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    /*-----3d script------*/
+    padding: 2rem;
+    margin: 2rem 0.5rem;
+    border-radius: 10px; /*arredonda as quinas*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word; /* força quebra de palavra */
+    overflow: hidden;
+}
+
+/* Grid padrão */
+#company.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+/* Lista */
+#company.list {
+    display: block;
+}
+
+#company.list .member {
+    margin-bottom: 1rem;
+}
+
+.view-buttons{
+  display: block;
+  width: fit-content; /* ou uma largura fixa */
+  margin: 1rem auto; /* isso sim centraliza de verdade */
+}
+
+
+/**************************************** FOOTER DESIGNE ***************************************************************/
+
+footer{
+    background-color: var(--secondary-color);
+    color: var(--LettersTitles-color);
+    padding: 1rem 10px;
+    text-align: center;
+
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.logos a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.logos img{
+    width: 22px;
+    height: 22px;
 }

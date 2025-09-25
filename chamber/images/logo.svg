@@ -1,46 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Nova Lima Chamber logo">
-  <!-- Gradient for shield -->
-  <defs>
-    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#1A3C8C"/>
-      <stop offset="1" stop-color="#0B2A6A"/>
-    </linearGradient>
-  </defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="512" 
+    height="512" 
+    viewBox="0 0 512 512">
 
-  <!-- shield shape -->
-  <path d="M160 32 L240 64 L264 162 C240 220 200 256 160 272 C120 256 80 220 56 162 L80 64 Z"
-        fill="url(#g1)" stroke="#081A3A" stroke-width="5" />
+  <title>Will Finance Mark</title>
+  <desc>Minimal single path upward-trend logo with arrow, watermark style</desc>
 
-  <!-- laurel left -->
-  <g transform="translate(40,80)" fill="#FFD700" opacity="0.95">
-    <path d="M42 0 C12 24 10 48 22 70 C40 60 52 40 68 28 C56 18 48 8 42 0z"/>
-    <path d="M26 34 C10 50 8 70 20 90 C36 78 44 58 58 46 C44 40 34 36 26 34z"/>
-  </g>
-
-  <!-- laurel right mirrored -->
-  <g transform="translate(240,80) scale(-1,1)" fill="#FFD700" opacity="0.95">
-    <path d="M42 0 C12 24 10 48 22 70 C40 60 52 40 68 28 C56 18 48 8 42 0z"/>
-    <path d="M26 34 C10 50 8 70 20 90 C36 78 44 58 58 46 C44 40 34 36 26 34z"/>
-  </g>
-
-  <!-- column / pillar -->
-  <g transform="translate(120,90)">
-    <!-- base and top -->
-    <rect x="10" y="124" width="80" height="12" fill="#FFD700"/>
-    <rect x="8" y="8" width="84" height="12" fill="#FFD700"/>
-    <!-- column body with fluting, transparent fill -->
-    <rect x="20" y="20" width="60" height="100" fill="none" stroke="#CCCCCC" stroke-width="2" rx="4"/>
-    <line x1="30" y1="20" x2="30" y2="120" stroke="#D1D1D1" stroke-width="2"/>
-    <line x1="45" y1="20" x2="45" y2="120" stroke="#D1D1D1" stroke-width="2"/>
-    <line x1="60" y1="20" x2="60" y2="120" stroke="#D1D1D1" stroke-width="2"/>
-    <line x1="75" y1="20" x2="75" y2="120" stroke="#D1D1D1" stroke-width="2"/>
-  </g>
-
-  <!-- initials NLIC with stroke for visibility -->
-  <text x="160" y="220" text-anchor="middle" font-family="Merriweather, serif" font-weight="700" font-size="44" fill="#FFFFFF" stroke="#081A3A" stroke-width="1.5" letter-spacing="3">NLIC</text>
-
-  <!-- ribbon (flattened) -->
-  <path d="M96 242 C128 246 192 246 224 242 L224 252 C192 258 128 258 96 252 Z" fill="#FFD700" opacity="0.95"/>
-  <!-- ribbon text centered and linear -->
-  <text x="160" y="247" text-anchor="middle" font-family="Open Sans, sans-serif" font-size="12" font-weight="700" fill="#082044" dominant-baseline="middle">Investment Chamber</text>
+  <!-- ÚNICO elemento (pode editar livremente no Inkscape, Illustrator ou até VSCode) -->
+  <path 
+    d="M 64 384
+       L 168 280
+       L 240 352
+       L 344 248
+       L 344 200
+       L 448 200
+       m -28 -16
+       l 28 16
+       l -28 16"
+    fill="none"
+    stroke="#212529"
+    stroke-width="24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="none"/>
 </svg>

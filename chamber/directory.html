@@ -10,6 +10,7 @@
     <meta property="og:description" content="A central hub for businesses in the Nova Lima region, especially those in the investment sector. It will provide information about local events, offer networking opportunities, create business directories, and encourage local commerce. The goal is to promote local economic growth, support financial and investment firms, and strengthen the sense of community among professionals and entrepreneurs.">
     <meta property="og:image" content="https://willian-byu-pro.github.io/wdd231/images/willian.jpg" />
     <meta property="org:url" content="https://willian-byu-pro.github.io/wdd231/" />
+    <script src="scripts/navegation.js" defer> </script>
 
 
     <title>Document</title>
@@ -23,7 +24,7 @@
 <body>
     <header>
         <img src="images/logo.svg" alt="logo site" width="512" height="512">
-        <span>Nova Lima Investment Chamber of Commerce</span>
+        <span id="cabeçalho">Nova Lima Investment Chamber of Commerce</span>
         <button id="ham-btn" class="hamburger"></button>
         <nav id="nav-bar" class="navegation">
           <ul>
@@ -36,20 +37,33 @@
     </header>
     <main>
         <h1>Home</h1>
-        <div id="company"  class="res grid">
-            <h2 class="h2divs">#</h2>
-            <nav>
-                <ul class="navigation">
-                  <li><a href="#" data-filter="all">List</a></li>
-                  
-                </ul>          
-            </nav>
-        </div>
+        <div class="view-buttons">
+         <button id="grid-view">Grid</button>
+         <button id="list-view">List</button>
+       </div>
+
+       <div id="company" class="res grid">
+    <!-- Os membros serão inseridos aqui -->
+ 
 
     </main>
     <footer>
-        <script src="scripts/navegation.js"> </script>
+
+        
+        <p class="copy">&copy;2025 | Willian Ramos | Brazil 
+            <span id="currentyear"></span>
+        </p>
+
+        <div class="logos">
+             <a href=""><img src="images/msteams.svg" alt="Logo msteams" width="16" height="16"></a>
+             <a href=""><img src="images/linkedin.svg" alt="Logo linkedin" width="16" height="16"></a>
+             <a href=""><img src="images/guithub.svg" alt="Logo Guithub" width="16" height="16"></a>
+        </div>
+        
+        <p id="LastModified"></p>
+
     </footer>
+    
     
 </body>
 </html>

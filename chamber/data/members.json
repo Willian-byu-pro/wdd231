@@ -4,7 +4,7 @@
     "address": "Rua Alameda da Serra, 1200, Nova Lima - MG",
     "phone": "+55 (31) 3551-2200",
     "website": "https://www.minasinvest.com.br",
-    "image": "minas_invest.png",
+    "image": "minas_invest.svg",
     "membershipLevel": 3,
     "description": "Consultoria em investimentos com foco em renda fixa, câmbio e fundos imobiliários.",
     "hours": "Seg-Sex 09:00-18:00"
@@ -14,7 +14,7 @@
     "address": "Av. Toronto, 55 - Vila da Serra, Nova Lima - MG",
     "phone": "+55 (31) 3224-9900",
     "website": "https://www.serraverdecapital.com.br",
-    "image": "serra_verde_capital.png",
+    "image": "serra_verde_capital.svg",
     "membershipLevel": 2,
     "description": "Gestora independente especializada em fundos de ações e previdência privada.",
     "hours": "Seg-Sex 08:30-17:30"
@@ -24,7 +24,7 @@
     "address": "Rua das Acácias, 230, Nova Lima - MG",
     "phone": "+55 (31) 3345-7812",
     "website": "https://www.horizonteinvest.com.br",
-    "image": "horizonte_invest.png",
+    "image": "horizonte_invest.svg",
     "membershipLevel": 1,
     "description": "Assessoria financeira focada em pequenos investidores e planejamento de aposentadoria.",
     "hours": "Seg-Sex 09:00-18:00"
@@ -34,7 +34,7 @@
     "address": "Alameda Oscar Niemeyer, 650 - Nova Lima - MG",
     "phone": "+55 (31) 3322-4455",
     "website": "https://www.ouropretoasset.com.br",
-    "image": "ouro_preto_asset.png",
+    "image": "ouro_preto_asset.svg",
     "membershipLevel": 3,
     "description": "Gestora de fundos multimercados com forte presença no mercado internacional.",
     "hours": "Seg-Sex 09:00-18:00"
@@ -44,7 +44,7 @@
     "address": "Rua do Lago, 90 - Vila da Serra, Nova Lima - MG",
     "phone": "+55 (31) 3311-8899",
     "website": "https://www.novacapitalpartners.com.br",
-    "image": "nova_capital.png",
+    "image": "nova_capital.svg",
     "membershipLevel": 2,
     "description": "Consultoria estratégica de investimentos para empresas e investidores de alto patrimônio.",
     "hours": "Seg-Sex 09:00-18:00"
@@ -54,7 +54,7 @@
     "address": "Av. Alameda do Morro, 410, Nova Lima - MG",
     "phone": "+55 (31) 3355-2233",
     "website": "https://www.valedosolinvest.com.br",
-    "image": "vale_do_sol.png",
+    "image": "vale_do_sol.svg",
     "membershipLevel": 1,
     "description": "Atuação em investimentos sustentáveis, fundos ESG e economia verde.",
     "hours": "Seg-Sex 08:00-17:00"
@@ -64,7 +64,7 @@
     "address": "Rua Montreal, 777 - Vila da Serra, Nova Lima - MG",
     "phone": "+55 (31) 3333-1010",
     "website": "https://www.alfatrader.com.br",
-    "image": "alfa_trader.png",
+    "image": "alfa_trader.svg",
     "membershipLevel": 2,
     "description": "Corretora de valores especializada em operações de bolsa e derivativos.",
     "hours": "Seg-Sex 09:00-19:00"

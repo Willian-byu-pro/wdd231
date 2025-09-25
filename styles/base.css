@@ -6,12 +6,11 @@
 /*text = #b08968*/
 
 :root {
-    --primary-head:#e5e5e5;/*Background = ede0d4*/
-    --secondary-color:#fca311;/*TitlesBackground = 9c6644*/
-    --LettersTitles-color: #14213d; /*LettersTittles = 7f5539*/
-    --text-color-principal:#000000;/*text = #b08968*/
+    --primary-head:#6c757d;/*Background = ede0d4*/
+    --secondary-color:#adb5bd;/*TitlesBackground = 9c6644*/
+    --LettersTitles-color: #212529; /*LettersTittles = 7f5539*/
+    --text-color-principal:#;/*text = #b08968*/
 }
-
 
 /***************************************************************************************************************/
 
@@ -106,6 +105,22 @@ header span{
     /*justify-content: center; ---->*/  /*"Center"Faz com que os "a" fiquem centralizidados(justificado ao centro) mas...*/
     margin: 0%;
     padding: 0%;
+    border-radius: 10px; /*arredonda as quinas*/
+   
+
+}
+
+
+.navegation ul li{/*epara os links em colunas por padrão flex*/
+    
+    list-style-type: none;/*Esse comando diz pro navegador:
+                            “Não mostre os pontinhos (•) na frente dos itens da lista.*/
+
+    /*justify-content: center; ---->*/  /*"Center"Faz com que os "a" fiquem centralizidados(justificado ao centro) mas...*/
+    margin: auto;
+    padding: 0%;
+    border-radius: 10px; /*arredonda as quinas*/
+    
    
 
 }
@@ -114,10 +129,10 @@ header span{
 
 
 nav {
-    background-color: var(--LettersTitles-color);
     display: flex;
     flex-direction: row;
-    padding: 10px 1px 10px 4px; /*Seguindo o sentido do relogio = padding: [top] [right] [bottom] [left];*/
+    margin: auto;
+    padding: 10px 10px 10px 10px; /*Seguindo o sentido do relogio = padding: [top] [right] [bottom] [left];*/
 }
 
 .navegation a{
@@ -200,6 +215,7 @@ main h1 {
     margin: 2rem 0.5rem;
     box-shadow: 0 4px 6px rgba(239, 185, 185, 0.1);
     align-items: center;
+     border-radius: 10px; /*arredonda as quinas*/
     
 }
 
@@ -218,10 +234,12 @@ main h1 {
     box-shadow: 0 4px 6px rgba(239, 185, 185, 0.1);
     align-items: center;
     
+    
 }
 
 #couses h2 {
   grid-column: 1 / -1; /* ocupa da primeira até a última coluna */
+  border-radius: 10px; /*arredonda as quinas*/
   
 }
 

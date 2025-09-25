@@ -1,10 +1,10 @@
 /*No large vamos usar o @media view*/
 
 :root {
-    --primary-head:#e5e5e5;/*Background = ede0d4*/
-    --secondary-color:#fca311;/*TitlesBackground = 9c6644*/
-    --LettersTitles-color: #14213d; /*LettersTittles = 7f5539*/
-    --text-color-principal:#000000;/*text = #b08968*/
+    --primary-head:#6c757d;/*Background = ede0d4*/
+    --secondary-color:#adb5bd;/*TitlesBackground = 9c6644*/
+    --LettersTitles-color: #212529; /*LettersTittles = 7f5539*/
+    --text-color-principal:#;/*text = #b08968*/
 }
 
 /*Ele diz: “as regras dentro daqui só vão valer se a tela tiver pelo menos 38rem de largura”.*/
@@ -48,7 +48,7 @@
  }
 
  nav {
-    background-color: var(--LettersTitles-color);
+    
     padding: 10px 10px 0% 10px; /*padding é o espaço interno de um elemento, 
                      ou seja, o "acolchoamento" entre o conteúdo 
                      e a borda do elemento superior e inferior.*/
@@ -80,23 +80,47 @@
   main h1 {
   grid-column: 1 / -1; /* ocupa da primeira até a última coluna */
   color:var(--LettersTitles-color)
-}
+  }
 
-main {
+ main {
     
     display: grid;
     grid-template-columns: 2fr 1fr;
 
-}
+  }
 
-#couses{
-  grid-template-columns: 2fr 2fr 2fr;
-}
+ #couses{
+   grid-template-columns: 2fr 2fr 2fr;
+  
+ }
 
 
+  
+
+ /*****************************************************navegador do filtro dos certificados*********************************************/
+
+ #couses nav {
+  grid-column: 1 / -1; /* ocupa da primeira até a última coluna */
+  text-decoration: none;
  
+  
+ }
 
 
 
+  .web {
+   display: flex;
+   border-radius: 10px; /*arredonda as quinas*/
+   margin: auto;
+   text-decoration: none;
+
+  }
+
+  li a{
+  
+     
+   border-radius: 10px; /*arredonda as quinas*/
+   margin: auto;
+   text-decoration: none;
+  }
 }
-
