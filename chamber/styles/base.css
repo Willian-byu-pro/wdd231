@@ -191,6 +191,11 @@ main h1 {
     margin-bottom: 1rem;
 }
 
+/* List: imagens ficam escondidas */
+#company.list img {
+  display: none;
+}
+
 .view-buttons{
   display: block;
   width: fit-content; /* ou uma largura fixa */
