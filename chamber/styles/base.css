@@ -312,7 +312,7 @@ footer{
 
 .divs2 h2{
     border-radius: 10px; /*arredonda as quinas*/
-    border-bottom: solid 2px #ddd; 
+    
     color: var(--primary-head);
     margin: 0px;
     padding: 0.5rem 1rem;
