@@ -18,11 +18,7 @@ header{
     align-items: end; /*Todos os itens do header sera grudado na borda inferior do container*/
     border-bottom: solid 2px #ddd; 
     column-gap: 8px; /*Da um gap/espaço entre as colunas (exp |gap| exp |gap| exp)*/
-    
-    
-    
-    
-    
+       
 }
 
 header img{
