@@ -231,3 +231,100 @@ footer{
     width: 22px;
     height: 22px;
 }
+
+
+
+/*****************************************************Hero layut*********************************************/
+
+.hero {
+   position: relative;
+   height: 100vh; /* altura do hero */
+   overflow: hidden; /* corta o que passar */
+  
+}
+
+
+
+
+
+
+.hero img{
+    display: block; /*img ocupara toda a largura disponivel alem de fazer quebra de linha*/
+    width: 100%; /*Fax com que ele fique enquadradro mas pode ser cortado para se enquadrar*/
+    height:auto;  /*Usa se a autura no auto para evitar a distorção da imagem ajudando assim a se enquadrar no seu box*/
+}
+
+.imghero{
+    position: absolute;
+   
+
+}
+
+
+
+
+.hero-content{
+    position: relative;
+}
+
+
+
+/*************************************sections latiyt Home*************************************************/
+
+/************************section1******************/
+.section1{
+    margin: auto;
+}
+
+.divs1 h2{
+    border-radius: 10px; /*arredonda as quinas*/
+    background-color: var(--secondary-color);
+    color: var(--primary-head);
+    margin: 0px;
+    padding: 0.5rem 1rem;
+    top: 0;
+
+}
+
+
+.divs1 {
+
+    padding:0%;
+    margin: 1rem 0.5rem;
+    border-radius: 10px; /*arredonda as quinas*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative; /* garante que o h2 fique dentro da div */
+}
+
+
+
+
+/************************section2****************/
+
+
+
+
+
+
+
+
+
+
+.divs2 h2{
+    border-radius: 10px; /*arredonda as quinas*/
+    border-bottom: solid 2px #ddd; 
+    color: var(--primary-head);
+    margin: 0px;
+    padding: 0.5rem 1rem;
+    top: 0;
+
+}
+
+.divs2 {
+
+    padding:0%;
+    margin: 1rem 0.5rem;
+    border-radius: 10px; /*arredonda as quinas*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative; /* garante que o h2 fique dentro da div */
+}

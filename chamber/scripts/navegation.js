@@ -121,3 +121,6 @@ listBtn.addEventListener('click', () => {
     companyDiv.classList.add('list');
     companyDiv.classList.remove('grid');
 });
+
+
+
