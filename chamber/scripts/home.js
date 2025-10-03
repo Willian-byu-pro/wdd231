@@ -78,3 +78,59 @@ function displayResults(data) {
   weatherIcon.setAttribute('alt', desc); /*Como o alt fica apenas na descrição, sendo oculto para isso serve o captionDesc - jogar na tela */
   captionDesc.textContent = `${desc}`;
 }
+
+
+
+
+async function loadMembers() {
+  try {
+    // Faz a requisição ao arquivo JSON
+    const response = await fetch('data/members.json');
+
+    // Converte a resposta para objeto JS
+    const members = await response.json();
+
+    // Seleciona a div onde vamos colocar os dados
+    const container = document.getElementById('destaq');
+
+    // Pega apenas os 3 primeiros
+    const threeMembers = members.slice(0, 3);
+ /***************************************************conteudo do cartão******************************************************/
+    threeMembers.forEach(member => {
+         let card = document.createElement("section");
+         card.classList.add("member"); // Classe base
+        
+
+                    // Estrutura do cartão
+
+         let name = document.createElement("h2");
+         let img = document.createElement("img");
+         let phone = document.createElement("p");
+         let website = document.createElement("p");
+
+
+         name.textContent = member.name;
+         phone.textContent = member.phone;
+         website.textContent = member.website;
+         img.src = `images/${member.image}`; // precisa existir no JSON
+         img.alt = `${member.name} foto`;
+
+         card.appendChild(name);
+         card.appendChild(img);
+         card.appendChild(phone);
+         card.appendChild(website);
+
+         container.appendChild(card);
+
+        });
+
+    } catch (error) {
+     console.error("Erro ao carregar os membros:", error);
+    } 
+}
+
+
+loadMembers();
+
+
+
