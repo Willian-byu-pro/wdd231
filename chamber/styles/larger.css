@@ -44,9 +44,26 @@
 
    /*************************************************Footer*************************************************/
 
-   footer {
-       border-radius: 10px; /*arredonda as quinas*/
+
+
+   footer p{
+      margin: auto;
+      display: grid;
    }
+
+   footer div{
+      margin: auto;
+   }
+
+   #dados{
+      display: grid;
+   }
+
+
+   footer{
+      display: flex;
+   }
+
 
 
 
@@ -67,6 +84,14 @@
     .section2{
       display: grid;
       grid-template-columns: 2fr 2fr 2fr;
+   }
+
+   /*****************************************hero*****************************/
+    .hero {
+      position: relative;
+      height: 40rem; /* altura do hero */
+      overflow: hidden; /* corta o que passar */
+  
    }
 
 }
