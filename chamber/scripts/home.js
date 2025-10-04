@@ -94,9 +94,14 @@ async function loadMembers() {
     const container = document.getElementById('destaq');
 
     // Pega apenas os 3 primeiros
-    const threeMembers = members.slice(0, 3);
+    const threeMembers = members.filter(member => member.membershipLevel === 1 || member.membershipLevel === 2);
+    // Embaralha o array filtrado
+    const shuffled = threeMembers.sort(() => 0.5 - Math.random());
+    // Seleciona os 3 primeiros após o embaralhamento
+    const selectedMembers = shuffled.slice(0, 3);
+
  /***************************************************conteudo do cartão******************************************************/
-    threeMembers.forEach(member => {
+    selectedMembers.forEach(member => {
          let card = document.createElement("section");
          card.classList.add("member"); // Classe base
         
