@@ -344,7 +344,7 @@ footer{
 
 
 main{
-    margin: 1rem 1rem 1rem 2rem;
+    margin: 1px 1px 1px 2rem;
     padding: 1rem;
     align-items: center;
     color: var(--secondary-color);
