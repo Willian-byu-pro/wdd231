@@ -343,12 +343,7 @@ footer{
 
 
 
-main{
-    margin: 1px 1px 1px 2rem;
-    padding: 1rem;
-    align-items: center;
-    color: var(--secondary-color);
-}
+
 
 form {
     max-width: 600px;
