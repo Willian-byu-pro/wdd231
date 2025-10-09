@@ -336,3 +336,56 @@ footer{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative; /* garante que o h2 fique dentro da div */
 }
+
+
+
+/********************************Tabela********************************************/
+
+
+
+main{
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 1rem;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* label em cima do input */
+    margin-bottom: 1em;
+}
+
+input, select, textarea {
+    width: 100%; 
+    padding: 0.5em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+/*****************************resultado da inscrição*/
+
+#results {
+
+    background: var(--secondary-color);
+    color: var(--LettersTitles-color);
+  
+    
+}
+
+#results  p{
+    margin: 0%;
+    
+    
+}

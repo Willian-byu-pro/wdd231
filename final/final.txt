@@ -1,0 +1,165 @@
+Website Project Plan
+Site Name
+
+CodeNova — Aprenda HTML & CSS do Zero
+
+Site Purpose
+
+O site CodeNova será uma plataforma voltada para quem quer aprender HTML e CSS de forma prática e interativa.
+Ele vai oferecer tutoriais passo a passo, desafios de código, artigos e projetos reais, ajudando iniciantes e estudantes de tecnologia a dominar a base do desenvolvimento web.
+
+O foco é criar um ambiente de aprendizado acessível e moderno, que incentive prática, criatividade e crescimento profissional na área de tecnologia.
+
+Target Market
+
+Estudantes de programação e tecnologia.
+
+Jovens iniciantes querendo entrar no mercado web.
+
+Profissionais de outras áreas que desejam migrar para TI.
+
+Pessoas autodidatas que preferem aprender no próprio ritmo.
+
+Website Objectives
+
+Ensinar HTML e CSS de forma clara e didática.
+
+Criar uma comunidade ativa de estudantes e desenvolvedores.
+
+Oferecer desafios, exemplos práticos e projetos reais.
+
+Tornar o aprendizado acessível para iniciantes e intermediários.
+
+Melhorar o ranqueamento orgânico com conteúdo educativo e atualizado.
+
+User Personas
+
+Laura – Estudante (19 anos)
+Está começando no curso de tecnologia e quer aprender HTML e CSS de forma prática, com exemplos visuais e exercícios.
+
+Pedro – Jovem Profissional (25 anos)
+Trabalha em uma área diferente, mas quer migrar para o setor tech. Procura aulas curtas e claras para estudar no tempo livre.
+
+Camila – Designer (28 anos)
+Já cria layouts no Figma e quer entender como transformar seus designs em páginas reais com HTML e CSS.
+
+User Scenarios
+
+Um usuário acessa o site e inicia o curso gratuito de HTML básico, com explicações passo a passo e exemplos práticos.
+
+Outro visitante lê um artigo sobre boas práticas de CSS, e aplica o aprendizado em seu próprio projeto.
+
+Um estudante participa de um desafio semanal de código, enviando sua solução e vendo o ranking da comunidade.
+
+Um usuário baixa um modelo de site completo (HTML + CSS) para estudar o código.
+
+SEO Plan
+
+Palavras-chave principais:
+
+aprender HTML
+
+curso de CSS
+
+tutoriais de front-end
+
+HTML e CSS para iniciantes
+
+desenvolvimento web básico
+
+Estratégias:
+
+Criar tutoriais com títulos otimizados para SEO.
+
+Integrar Google Analytics e Google Search Console.
+
+Obter backlinks de blogs e fóruns de tecnologia.
+
+Criar conteúdo educativo constante para aumentar autoridade de domínio.
+
+Project Summary
+
+Cores Principais:
+
+Primária: #0077FF (azul tech – aprendizado e confiança)
+
+Secundária: #FFB400 (amarelo – energia e destaque)
+
+Fundo: #F9FAFB (cinza muito claro – limpo e leve)
+
+Texto: #1C1C1C (cinza escuro – excelente leitura)
+
+Tipografia:
+
+Títulos: Poppins (moderna e jovem)
+
+Texto: Open Sans (legível e neutra)
+
+Site Map
+
+Home
+│
+├── Aprenda HTML
+│ ├── Estrutura Básica
+│ ├── Tags e Atributos
+│ ├── Listas, Links e Imagens
+│ └── Projeto Prático – Página Pessoal
+│
+├── Aprenda CSS
+│ ├── Seletores e Cores
+│ ├── Box Model e Layout
+│ ├── Responsividade
+│ └── Projeto Prático – Landing Page
+│
+├── Desafios e Projetos
+│ ├── Desafio Semanal
+│ ├── Templates para Treinar
+│ └── Galeria de Alunos
+│
+├── Blog & Dicas
+│ ├── Artigos de Front-end
+│ ├── Boas Práticas
+│ └── Entrevistas com Devs
+│
+└── Contato / Comunidade
+├── Fale Conosco
+├── Fórum e Discord
+└── Feedback
+
+Wireframes
+
+Desktop
+
+Header fixo com logo “CodeNova” e menu de navegação.
+
+Hero Section: “Aprenda HTML e CSS do Zero – Crie seu primeiro site hoje!”
+
+Seções de destaque com cards: Cursos (HTML / CSS), Projetos e Desafios, Blog & Dicas.
+
+Rodapé com contatos, redes sociais e newsletter.
+
+Mobile
+
+Menu hambúrguer.
+
+Cards verticais empilhados (HTML / CSS / Desafios).
+
+Botões de ação: “Comece Agora”, “Ver Curso”, “Entrar na Comunidade”.
+
+Tech Stack
+
+Front-end: HTML5, CSS3, JavaScript (com Tailwind ou Bootstrap).
+
+Back-end: Node.js ou Firebase (para salvar progresso e desafios).
+
+Banco de Dados: Firestore ou MongoDB.
+
+Analytics: Google Analytics 4.
+
+Hospedagem: Netlify, Vercel ou GitHub Pages.
+
+
+
+
+
+
