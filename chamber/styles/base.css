@@ -377,15 +377,16 @@ input, select, textarea {
 /*****************************resultado da inscrição*/
 
 #results {
-
     background: var(--secondary-color);
     color: var(--LettersTitles-color);
-  
-    
+    border-radius: 7px;
+    padding: 1em;
+    margin-bottom: 2em; /* garante espaço entre resultados e footer */
 }
 
-#results  p{
-    margin: 0%;
-    
-    
+div .cardresult{
+ 
+    margin: 0px 10px 0% 15%;
+    border-radius: 4px;
+    position:relative;
 }
