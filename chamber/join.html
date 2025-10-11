@@ -105,6 +105,23 @@
 
             <!-- Carimbo de data/hora oculto -->
             <input type="hidden" id="timestamp" name="timestamp" value="">  <!--Campo oculto (<input type="hidden">)-->
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                  const form = document.getElementById('form'); // certifique-se de ter só UM form com esse id
+                  const timestampInput = document.getElementById('timestamp');
+
+                  if (!form || !timestampInput) {
+                      console.error('Form ou input timestamp não encontrado.');
+                      return;
+                    }
+
+                 // Antes de enviar, preenche o campo com o ISO atual
+                 form.addEventListener('submit', () => {
+                 timestampInput.value = new Date().toISOString();
+                  // não precisa preventDefault, só garantir que o valor esteja pronto
+                 });
+                });
+          </script>
 
 
 
