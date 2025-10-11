@@ -115,11 +115,11 @@
                       return;
                     }
 
-                 // Antes de enviar, preenche o campo com o ISO atual
-                 form.addEventListener('submit', () => {
-                 timestampInput.value = new Date().toISOString();
-                  // não precisa preventDefault, só garantir que o valor esteja pronto
-                 });
+                  // Antes de enviar, preenche o campo com o ISO atual
+                  form.addEventListener('submit', () => {
+                     timestampInput.value = new Date().toISOString();
+                     // não precisa preventDefault, só garantir que o valor esteja pronto
+                   });
                 });
           </script>
 
