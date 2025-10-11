@@ -15,6 +15,7 @@ console.log(myInfo.get('first-name'));
 console.log(myInfo.get('last-name'));
 console.log(myInfo.get('email'));
 console.log(myInfo.get('phone'));
+console.log(myInfo.get('title-organization'));
 console.log(myInfo.get('organization'));
 console.log(myInfo.get('membership'));
 console.log(myInfo.get('description'));
@@ -26,6 +27,7 @@ const currentTemp = document.querySelector('#results').innerHTML = `
 <div class="cardresult"><p>${myInfo.get('first-name')} ${myInfo.get('last-name')}</p></div>
 <div class="cardresult"><p>Your email: ${myInfo.get('email')}</p></div>
 <div class="cardresult"><p>Your Phone Number: ${myInfo.get('phone')}</p></div>
+<div class="cardresult"><p>Your Tittle organization name: ${myInfo.get('title-organization')}</p></div>
 <div class="cardresult"><p>Your organization name: ${myInfo.get('organization')}</p></div>
 <div class="cardresult"><p>Your clasification: ${myInfo.get('membership')}</p></div>
 <div class="cardresult"><p>Description: ${myInfo.get('description')}</p></div>
