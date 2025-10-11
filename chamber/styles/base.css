@@ -348,6 +348,7 @@ footer{
 form {
     max-width: 600px;
     margin: 0 auto;
+    margin-bottom: 1rem; /* garante espaço entre resultados e footer */
     padding: 1em;
     background: #f5f5f5;
     border-radius: 8px;
@@ -369,7 +370,7 @@ input, select, textarea {
 
 
 
-/*****************************resultado da inscrição*/
+/*****************************resultado da inscrição****************************/
 
 #results {
     background: var(--secondary-color);
@@ -384,4 +385,37 @@ div .cardresult{
     margin: 0px 10px 0% 15%;
     border-radius: 4px;
     position:relative;
+}
+
+
+/************************************Dialogo Metodo********************************/
+
+button{
+    border-radius: 5px;
+    border:0pc ;
+}
+
+button:hover{/* estilo quando o usuário passa o mouse por cima do link*/
+    color: var(--secondary-color);
+    background-color: var(--primary-head);
+    
+
+
+}
+
+#joinCard{
+    display: grid;
+    margin: auto;
+    
+
+}
+
+.dialog{
+    display: grid;
+    max-width: 300px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin-bottom: 1rem; /* garante espaço entre resultados e footer */
+    margin-left: 1rem;
+    border-radius: 4px;
 }

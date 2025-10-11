@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
+    <script src="scripts/dialog.js" defer> </script>
 </head>
 
 <body>
@@ -38,14 +39,16 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="submit">
         <h1>Chamber Membership Join Page</h1>
+
         <form id="form"    method="get" action="thankyou.html">
             <!-- Primeiro Nome -->
-            <div class="form-group"></div>
+            <div class="form-group">
             <label for="first-name"> your fisrt name</label>
-            <input type="text" id="first-name" name="first-name" title="First Name" required autocomplete="give-name">
+            <input type="text" id="first-name" name="first-name" title="First Name" required autocomplete="given-name">
             <br></br>
+            </div>
 
             <!-- Sobre Nome -->
              <div class="form-group">
@@ -80,11 +83,15 @@
             <!--Assosiation Level-->
             <div class="form-group">
             <label for="membership">Assossiation Level</label> <!--Cria um menu dropdown para escolher apenas uma opção.-->
+            <form id="form" method="get" action="thankyou.html">
             <select id="membership" name="membership">
+
                 <option value="non-profit">NP Membership (for non profit organizations and there is no fee.)</option>
                 <option value="Bronze">Bronze Membership</option>
                 <option value="Silver">Silver Membership</option>
                 <option value="Gold">Gold Membership</option>
+                            
+
             </select>
             </div>
 
@@ -103,6 +110,43 @@
 
 
         </form>
+             <div id="joinCard">
+         <div class="dialog">
+          <h3>Non profit Membership Level</h3>
+          <button class="open-btn" data-target="dialog">More info</button> <!--data-target vincula o botão ao dialogo por meio do ID do dialog-->
+          <dialog id="dialog">
+             <p></p>
+             <button class="close-btn">Close</button>
+          </dialog>
+         </div>
+
+         <div class="dialog">
+          <h3>Gold Membership Level</h3>
+          <button class="open-btn" data-target="dialog1">More info</button>
+          <dialog id="dialog1">
+             <p></p>
+             <button class="close-btn">Close</button>
+          </dialog>
+         </div>
+
+         <div class="dialog">
+           <h3>Silver Membership Level</h3>
+           <button class="open-btn" data-target="dialog2">More info</button>
+           <dialog id="dialog2">
+             <p></p>
+             <button class="close-btn">Close</button>
+           </dialog>
+         </div>
+
+         <div class="dialog">
+            <h3>Bronze Membership Level</h3>
+           <button class="open-btn" data-target="dialog3">More info</button>
+           <dialog id="dialog3">
+               <p></p>
+               <button class="close-btn">Close</button>
+            </dialog>
+          </div>
+      </div>
 
 
     </main>

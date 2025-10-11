@@ -25,3 +25,5 @@ const currentTemp = document.querySelector('#results').innerHTML = `
 <div class="cardresult"><p>Your organization name: ${myInfo.get('organization')}</p></div>
 <div class="cardresult"><p>Your clasification: ${myInfo.get('membership')}</p></div>
 `;
+
+
