@@ -18,6 +18,9 @@ console.log(myInfo.get('phone'));
 console.log(myInfo.get('organization'));
 console.log(myInfo.get('membership'));
 console.log(myInfo.get('description'));
+console.log(myInfo.get('timestamp'));
+
+
 
 const currentTemp = document.querySelector('#results').innerHTML = `
 <div class="cardresult"><p>${myInfo.get('first-name')} ${myInfo.get('last-name')}</p></div>
@@ -25,7 +28,8 @@ const currentTemp = document.querySelector('#results').innerHTML = `
 <div class="cardresult"><p>Your Phone Number: ${myInfo.get('phone')}</p></div>
 <div class="cardresult"><p>Your organization name: ${myInfo.get('organization')}</p></div>
 <div class="cardresult"><p>Your clasification: ${myInfo.get('membership')}</p></div>
-<div class="cardresult"><p>Description:: ${myInfo.get('description')}</p></div>
+<div class="cardresult"><p>Description: ${myInfo.get('description')}</p></div>
+<div class="cardresult"><p>Date: ${myInfo.get('timestamp')}</p></div>
 `;
 
 
