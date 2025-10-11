@@ -134,7 +134,8 @@ nav {
 main h1 {
   grid-column: 1 / -1; /* ocupa da primeira até a última coluna */
   color:var(--text-color-principal);
-  margin-left: 20px;
+  margin: 1rem;
+  text-align: center; /* Centraliza o texto dentro do elemento */
   
 }
 
@@ -396,7 +397,7 @@ button{
 }
 
 button:hover{/* estilo quando o usuário passa o mouse por cima do link*/
-    color: var(--secondary-color);
+    color: white;
     background-color: var(--primary-head);
     
 
@@ -418,4 +419,69 @@ button:hover{/* estilo quando o usuário passa o mouse por cima do link*/
     margin-bottom: 1rem; /* garante espaço entre resultados e footer */
     margin-left: 1rem;
     border-radius: 4px;
+}
+
+
+dialog{
+
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+    border:0pc ;
+    border-radius: 10px;
+}
+
+dialog p{
+
+    
+    border:0pc ;
+
+}
+
+/**********************************Animation************************************************/
+
+
+/*
+Animações
+A animação pode ser definida diretamente por meio da animationpropriedade shorcut ou especificando qualquer uma de suas subpropriedades diretamente:
+
+animation-name: Especifica o nome da animação @keyframes a ser aplicada ao elemento.
+animation-duration: Define quanto tempo a animação leva para completar um ciclo.
+animation-timing-function: Controla a curva de velocidade da animação, como linear ou gradual.
+animation-delay: Define quanto tempo esperar antes que a animação comece.
+animation-iteration-count: Especifica quantas vezes a animação deve ser repetida.
+animation-direction: Determina se a animação deve ser reproduzida para frente, para trás ou em direções alternadas.
+animation-fill-mode: Define como os estilos são aplicados antes e depois da execução da animação.
+animation: Uma propriedade abreviada para especificar várias subpropriedades de animação de uma só vez
+*/
+
+
+
+.dialog {
+  /* Inicialmente invisível e deslocado para baixo */
+  opacity: 0;
+  transform: translateY(100px); /* 50px abaixo da posição final */
+  
+  /* Animação */
+  animation: subir 2s ease-out forwards; /* duração 0.6s, suavização ease-out, mantém estado final */
+}
+
+/*
+animação → nome do @keyframes
+2s → duração
+linear → função de tempo
+2s → atraso antes de começar
+forwards → mantém o estado final (opacity: 1) após a animação
+*/
+
+
+@keyframes subir {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); /* começa 50px abaixo */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* termina na posição normal */
+  }
 }
