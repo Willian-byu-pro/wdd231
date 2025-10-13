@@ -33,7 +33,7 @@ h1, h2, h3 {
 h1 { font-size: 28px; }
 h2 { font-size: 20px; }
 p, li { line-height: 1.5; margin: 6px 0; }
-.meta { font-size: 13px; color: var(--muted); }
+
 
 section { padding: 18px 0; border-bottom: 1px dashed #eceff4; }
 
