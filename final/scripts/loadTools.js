@@ -15,7 +15,7 @@ async function loadTools() {
 
             // Estrutura do cartão
          let name = document.createElement("h2");
-         let website = document.createElement("p");
+         let website = document.createElement("a");
          let img = document.createElement("img");
          //let membershipLevel = document.createElement("p");
          let description = document.createElement("p");
@@ -27,6 +27,9 @@ async function loadTools() {
          description.textContent = tool.description;
          img.src = `${tool.image}`; // precisa existir no JSON
          img.alt = `${tool.name} foto`;
+         website.href = tool.website;
+         website.target = `_blank`;
+         website.textContent = "Usar"
 
          card.appendChild(img);
          card.appendChild(name);
