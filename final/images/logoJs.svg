@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="titleJs">
+  <title id="titleJs">JavaScript logo - yellow square</title>
+  <rect width="90%" height="90%" rx="32" fill="#F7DF1E"/>
+  <!-- subtle shadow -->
+  <rect x="12" y="12" width="232" height="232" rx="28" fill="none" stroke="#000" stroke-opacity="0.06"/>
+  <!-- JS letters -->
+  <text x="50%" y="54%" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="800" font-size="96" fill="#000000" dy=".35em">JS</text>
+  <!-- small tag -->
+  <text x="50%" y="84%" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="600" font-size="12" fill="#333">JavaScript</text>
+</svg>

@@ -1,0 +1,90 @@
+/*Ele diz: “as regras dentro daqui só vão valer se a tela tiver pelo menos 38rem de largura”.*/
+@media only screen and (min-width: 38rem){
+
+
+
+
+        
+
+    nav {
+        display: flex;           /* mostra o menu */
+        justify-self: end;       /* empurra para a direita da coluna */
+        margin: 10px 50px 10px 10px;  
+        
+    }
+    
+    #ham-btn {
+        display: none;           /* esconde o hambúrguer no desktop */
+    }
+
+
+
+   .hamburger {
+    display: none;
+    /*Em telas pequenas → mostra o botão hambúrguer (menu escondido atrás dele).
+      Em telas grandes → esconde o hambúrguer (display: none) e mostra o menu direto.*/
+   }
+
+   .navegation {/*Agora sobrepoem a script do aruivo base fazendo com que ao acionar o @media a barra de navegação estara visivel independente do click "show" ser ativo mostrando assim o menu fixo na pagina grande*/
+    display: block;
+    
+   }
+
+    /**************************************** HEADER MENU DESIGNE Large***************************************************************/
+
+
+    .navegation ul {/*separa os links em colunas por padrão flex*/
+    display: flex;
+    column-gap: 50px; /*Da um gap/espaço entre as colunas (exp |gap| exp |gap| exp)*/
+    list-style-type: none;/*Esse comando diz pro navegador:
+                            “Não mostre os pontinhos (•) na frente dos itens da lista.*/
+
+    align-items: center;
+
+   }
+
+    /**************************************** HEADER MENU DESIGNE Large***************************************************************/
+    
+    .section1{
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50%;
+    margin: auto;
+    gap: 20px;
+    
+  
+    }
+
+    .section2{
+     max-width: 1800px;
+     display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     margin-top: 5%;
+      gap: 20px;
+  
+    }
+
+   .divs2 {
+
+      background: rgba( 255, 255, 255, 0.30);
+      border-radius: 5%;
+   }
+
+   .slide a {              
+     width: 700px;                   /* largura fixa */
+
+  }
+
+
+  /******************************Tabela de ferramentaas*************************************************/
+    .res-grid{
+    max-width: 900px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+    }
+    
+}

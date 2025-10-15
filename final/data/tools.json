@@ -1,0 +1,59 @@
+[
+  {
+    "name": "CSS",
+    "website": "https://www.codecademy.com/",
+    "image": "",
+    "description": "Aprenda"
+
+  },
+  {
+    "name": "JavaScript",
+    "website": "https://www.freecodecamp.org/",
+    "image": "https://www.freecodecamp.org/favicon.ico",
+    "description": ""
+
+  },
+  {
+    "name": "React",
+    "website": "https://react.dev/",
+    "image": "https://react.dev/favicon.ico",
+    "description": "1"
+
+  },
+  {
+    "name": "Python",
+    "website": "https://learnpython.org/",
+    "image": "https://learnpython.org/favicon.ico",
+    "description": "2"
+
+  },
+  {
+    "name": "Java",
+    "website": "https://www.sololearn.com/pt/",
+    "image": "https://www.sololearn.com/pt/favicon.ico",
+    "description": "3"
+
+  },
+  {
+    "name": "PHP",
+    "website": "https://www.php.net/",
+    "image": "https://www.php.net/favicon.ico",
+    "description": "4"
+
+  },
+  {
+    "name": "Cybersecurity",
+    "website": "https://tryhackme.com/",
+    "image": "https://tryhackme.com/favicon.ico",
+    "description": "5"
+
+  },
+  {
+    "name": "Git",
+    "website": "https://js.org/?learngitbraching",
+    "image": "https://js.org/?learngitbrachingfavicon.ico",
+    "description": "6"
+
+  }
+
+]
