@@ -2,14 +2,14 @@
   {
     "name": "CSS",
     "website": "https://www.codecademy.com/",
-    "image": "",
+    "image": "https://www.codecademy.com/favicon.ico",
     "description": "Aprenda"
 
   },
   {
     "name": "JavaScript",
     "website": "https://www.freecodecamp.org/",
-    "image": "https://www.freecodecamp.org/favicon.ico",
+    "image": "https://www.google.com/s2/favicons?sz=64&domain=freecodecamp.org",
     "description": ""
 
   },
@@ -30,7 +30,7 @@
   {
     "name": "Java",
     "website": "https://www.sololearn.com/pt/",
-    "image": "https://www.sololearn.com/pt/favicon.ico",
+    "image": "https://www.sololearn.com/favicon.ico",
     "description": "3"
 
   },
@@ -50,8 +50,40 @@
   },
   {
     "name": "Git",
-    "website": "https://js.org/?learngitbraching",
-    "image": "https://js.org/?learngitbrachingfavicon.ico",
+    "website": "https://js.org/",
+    "image": "https://js.org/favicon.ico",
+    "description": "6"
+
+  },
+
+  {
+    "name": "Codepen",
+    "website": "https://codepen.io/trending",
+    "image": "https://codepen.io/favicon.ico",
+    "description": "6"
+
+  },
+
+  {
+    "name": "Color Palettes",
+    "website": "https://coolors.co/palettes/trending",
+    "image": "https://www.google.com/s2/favicons?sz=64&domain=coolors.co",
+    "description": "6"
+
+  },
+
+  {
+    "name": "Foto Editor",
+    "website": "https://squoosh.app/",
+    "image": "https://www.google.com/s2/favicons?sz=64&domain=squoosh.app",
+    "description": "6"
+
+  },
+
+  {
+    "name": "Wireframe",
+    "website": "https://app.moqups.com/",
+    "image": "https://app.moqups.com/favicon.ico",
     "description": "6"
 
   }
