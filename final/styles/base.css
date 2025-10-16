@@ -155,10 +155,10 @@ main {
 
 
 .section2{
-  display: grid;
-  margin: 10% 10% 10% 10%;
-  gap: 20px;
-
+    display: grid;
+    margin-top: 50%;
+    margin: auto;
+    gap: 20px;
   
 }
 
@@ -287,4 +287,47 @@ footer{
   border-radius: 5%;
   align-items: center;
   margin: 20px;
+}
+
+
+
+
+/**************************formulario**************************************************************************/
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 1rem; /* garante espaço entre resultados e footer */
+    padding: 1em;
+    background: rgba( 255, 255, 255, 0.30);
+    border-radius: 8px;
+    align-items: center;
+}
+
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* label em cima do input */
+    margin-bottom: 1em;
+    color: black;
+}
+
+input, select, textarea {
+    width: 100%; 
+    padding: 0.5em;
+    box-sizing: border-box;
+    border: 1px solid rgba( 255, 255, 255, 0.30);
+    border-radius: 4px;
+    background-color: rgba( 255, 255, 255, 0.30);
+    align-items: center;
+}
+
+
+
+#results{
+  background-color:rgba( 255, 255, 255, 0.30);
+  
 }
