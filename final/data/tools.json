@@ -3,56 +3,56 @@
     "name": "CSS",
     "website": "https://www.codecademy.com/",
     "image": "https://www.codecademy.com/favicon.ico",
-    "description": "Aprenda"
+    "description": "Learn CSS"
 
   },
   {
     "name": "JavaScript",
     "website": "https://www.freecodecamp.org/",
     "image": "https://www.google.com/s2/favicons?sz=64&domain=freecodecamp.org",
-    "description": ""
+    "description": "Learn JS"
 
   },
   {
     "name": "React",
     "website": "https://react.dev/",
     "image": "https://react.dev/favicon.ico",
-    "description": "1"
+    "description": "learn React"
 
   },
   {
     "name": "Python",
     "website": "https://learnpython.org/",
     "image": "https://learnpython.org/favicon.ico",
-    "description": "2"
+    "description": "Learn Py"
 
   },
   {
     "name": "Java",
     "website": "https://www.sololearn.com/pt/",
     "image": "https://www.sololearn.com/favicon.ico",
-    "description": "3"
+    "description": "Learn Java"
 
   },
   {
     "name": "PHP",
     "website": "https://www.php.net/",
     "image": "https://www.php.net/favicon.ico",
-    "description": "4"
+    "description": "Learn PHP"
 
   },
   {
     "name": "Cybersecurity",
     "website": "https://tryhackme.com/",
     "image": "https://tryhackme.com/favicon.ico",
-    "description": "5"
+    "description": "Learn"
 
   },
   {
     "name": "Git",
     "website": "https://js.org/",
     "image": "https://www.google.com/s2/favicons?sz=64&domain=js.org",
-    "description": "6"
+    "description": "Learn Git"
 
   },
 
@@ -60,7 +60,7 @@
     "name": "Codepen",
     "website": "https://codepen.io/trending",
     "image": "https://codepen.io/favicon.ico",
-    "description": "6"
+    "description": "Web tool for coding"
 
   },
 
@@ -68,7 +68,7 @@
     "name": "Color Palettes",
     "website": "https://coolors.co/palettes/trending",
     "image": "https://www.google.com/s2/favicons?sz=64&domain=coolors.co",
-    "description": "6"
+    "description": "Tool for selecting colors"
 
   },
 
@@ -76,7 +76,7 @@
     "name": "Foto Editor",
     "website": "https://squoosh.app/",
     "image": "https://www.google.com/s2/favicons?sz=64&domain=squoosh.app",
-    "description": "6"
+    "description": "Tool foto editor"
 
   },
 
@@ -84,7 +84,7 @@
     "name": "Wireframe",
     "website": "https://app.moqups.com/",
     "image": "https://app.moqups.com/favicon.ico",
-    "description": "6"
+    "description": "Tool for website design"
 
   }
 
