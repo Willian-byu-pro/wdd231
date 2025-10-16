@@ -24,6 +24,6 @@ const currentTemp = document.querySelector('#results').innerHTML = `
 <div class="cardresult"><p>${myInfo.get('first-name')} ${myInfo.get('last-name')}</p></div>
 <div class="cardresult"><p>Your email: ${myInfo.get('email')}</p></div>
 <div class="cardresult"><p>Your Phone Number: ${myInfo.get('phone')}</p></div>
-<div class="cardresult"><p>Your clasification: ${myInfo.get('membership')}</p></div>
+<div class="cardresult"><p>Your Your selected course: ${myInfo.get('membership')}</p></div>
 <div class="cardresult"><p>Date: ${myInfo.get('timestamp')}</p></div>
 `;
