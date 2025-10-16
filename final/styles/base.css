@@ -176,7 +176,7 @@ main {
 .section2{
     display: grid;
     margin-top: 50%;
-    margin: auto;
+    margin: 100px auto;
     gap: 20px;
   
 }
@@ -223,15 +223,15 @@ main {
 /* Delay para cada thumbnail */
 .slide a:nth-child(1) { animation-delay: 5s; }
 .slide a:nth-child(2) { animation-delay: 2s; }
-.slide a:nth-child(3) { animation-delay: 2s; }
+.slide a:nth-child(3) { animation-delay: 10s; }
 
 
 /* Animação de fade in/out */
 @keyframes fadeSlide {
-  0% { opacity: 0; }
-  10% { opacity: 1; }
-  30% { opacity: 1; }
-  100% { opacity: 0; }
+  0% { opacity: 1; }
+  10% { opacity: 0; }
+  30% { opacity: 2; }
+  100% { opacity: 2; }
 }
 
 
