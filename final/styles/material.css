@@ -19,6 +19,7 @@
 
 
 
+
 /* Header */
 .materials-header {
     text-align: center;
@@ -42,7 +43,7 @@
     display: grid;
     gap: 2rem;
     padding: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
 
