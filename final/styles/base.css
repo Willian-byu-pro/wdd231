@@ -424,8 +424,17 @@ label{
 }
 
 
+#thanks{
+  display: grid;
+}
+
+.cardresult{
+  margin: 10px 10px 10px 10px;
+}
 
 #results{
   background-color:rgba( 255, 255, 255, 0.30);
+  border-radius: 10%;
+  margin: 100px 100px 100px 100px;
   
 }
