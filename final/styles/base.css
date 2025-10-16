@@ -222,8 +222,8 @@ main {
 
 /* Delay para cada thumbnail */
 .slide a:nth-child(1) { animation-delay: 5s; }
-.slide a:nth-child(2) { animation-delay: 12s; }
-.slide a:nth-child(3) { animation-delay: 8s; }
+.slide a:nth-child(2) { animation-delay: 2s; }
+.slide a:nth-child(3) { animation-delay: 2s; }
 
 
 /* Animação de fade in/out */
@@ -231,7 +231,6 @@ main {
   0% { opacity: 0; }
   10% { opacity: 1; }
   30% { opacity: 1; }
-  40% { opacity: 1; }
   100% { opacity: 0; }
 }
 
