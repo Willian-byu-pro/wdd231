@@ -17,6 +17,13 @@ body {
   margin: 0;
 }
 
+h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: rgb( 255, 255, 255, 0.5);
+  
+  
+}
+
 
 
 
@@ -54,7 +61,6 @@ nav {
 .hamburger {
     background: none; /*Retira o fundo do botão*/
     border: none; /*Retira a borda do botão*/
-    color:  var(--);
     cursor: pointer;
 
 }
@@ -133,6 +139,10 @@ main {
  
 }
 
+.subtitlle{
+  padding: 20px;
+}
+
 .firstsection{
   margin: auto;
   padding: 5rem;
@@ -148,11 +158,20 @@ main {
 }
 
 .divs1{
-  background: rgba( 255, 255, 255, 0.30);
+  background: rgba( 255, 255, 255, 0.20);
   border-radius: 5%;
+  box-shadow: 0 4px 6px rgba(239, 185, 185, 0.30); 
 
 }
 
+.divs1 a:hover{
+
+  color: white;
+  background-color: var(--background);
+    
+
+
+}
 
 .section2{
     display: grid;
@@ -174,11 +193,10 @@ main {
   align-items: center;
   gap: 20px;                      /* espaço entre thumbnails */
   padding: 200px 0;                /* topo e baixo */
-  background-color: #111;         /* fundo escuro */
   overflow: hidden;
   position: relative;
-  background: rgba( 255, 255, 255, 0.30);
   border-radius: 5%;           /* necessário para posicionamento dos filhos absolutos */
+  box-shadow: 0 4px 6px rgba(239, 185, 185, 0.1); 
 }
 
 /* Cada thumbnail dentro do slide */
@@ -215,6 +233,36 @@ main {
   30% { opacity: 1; }
   40% { opacity: 1; }
   100% { opacity: 0; }
+}
+
+
+.section1, .section2, form{
+  /* Inicialmente invisível e deslocado para baixo */
+  opacity: 0;
+  transform: translateY(100px); /* 50px abaixo da posição final */
+  
+  /* Animação */
+  animation: subir 2s ease-out forwards; /* duração 0.6s, suavização ease-out, mantém estado final */
+}
+
+/*
+animação → nome do @keyframes
+2s → duração
+linear → função de tempo
+2s → atraso antes de começar
+forwards → mantém o estado final (opacity: 1) após a animação
+*/
+
+
+@keyframes subir {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); /* começa 50px abaixo */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* termina na posição normal */
+  }
 }
 
 
