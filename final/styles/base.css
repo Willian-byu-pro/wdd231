@@ -134,7 +134,7 @@ nav {
 /*********************Main************************/
 
 main {
-    margin: 0;
+    margin: 10px;
 
  
 }
@@ -283,6 +283,8 @@ forwards → mantém o estado final (opacity: 1) após a animação
   position: relative;
   overflow: visible; /* libera a rolagem natural */
 }
+
+
 
 
 
@@ -438,3 +440,4 @@ label{
   margin: 100px 100px 100px 100px;
   
 }
+
