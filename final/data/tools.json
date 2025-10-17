@@ -86,6 +86,30 @@
     "image": "https://app.moqups.com/favicon.ico",
     "description": "Tool for website design"
 
+  },
+
+  {
+    "name": "Contrast Ratio",
+    "website": "https://www.siegemedia.com/contrast-ratio#%23894-on-%230000ee",
+    "image": "https://www.siegemedia.com/favicon.ico",
+    "description": "Tool Contrast Ratio"
+
+  },
+
+  {
+    "name": "GitHub page",
+    "website": "https://github.com/dashboard",
+    "image": "https://github.com/favicon.ico",
+    "description": "App route your page"
+
+  },
+
+  {
+    "name": "Chatgpt",
+    "website": "https://chatgpt.com/",
+    "image": "https://chatgpt.com//favicon.ico",
+    "description": "Chat IA"
+
   }
 
 ]
