@@ -17,7 +17,7 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   color: rgb( 255, 255, 255, 2);
   
@@ -151,7 +151,7 @@ main {
 .section1{
     display: grid;
     margin-top: 50%;
-    margin: 10% 10% 10% 10%;
+    margin: 50px 50px;
     gap: 20px;
     
  
@@ -161,6 +161,7 @@ main {
   background: rgba( 255, 255, 255, 0.20);
   border-radius: 5%;
   box-shadow: 0 4px 6px rgba(239, 185, 185, 0.30); 
+  margin: 30px 30px;
 
 }
 
