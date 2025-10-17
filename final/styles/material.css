@@ -26,9 +26,9 @@
 /* Grid de cards */
 .grid-container {
     display: grid;
-    gap: 2rem;
-    padding: 2rem;
-    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-items: center;
 }
 
@@ -73,6 +73,23 @@
     background-color: var(--btn-hover);
 }
 
-/* Footer */
+/*********************Hero************************/
+
+.hero {
+  width: 100%;
+  min-height: 100vh; /* deixa o fundo ocupar no mínimo a tela toda, mas permite crescer */
+  background-image: url('../images/temaHero.jpg');
+  background-size: cover; /*Faz a imagem de fundi preencher todo o elemento*/
+  background-position: center;
+  background-repeat: no-repeat;/*Obviamente evita a reptição da imagem para ocupar os espços em brancom*/
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: visible; /* libera a rolagem natural */
+}
+
+
 
 
