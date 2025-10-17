@@ -508,3 +508,7 @@ label{
   color: var(--secondary);
   background-color: #0077FF;
 }
+
+#news{
+  display: none;
+}
